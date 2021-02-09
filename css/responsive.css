@@ -1,0 +1,110 @@
+@media screen and (max-width: 1199px) {
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+  .menu-icon {
+    font-size: 2rem;
+  }
+  .nav-item {
+    margin: 0.5rem 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .pricing-features-box {
+    margin-top: 8rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .container {
+    padding: 0 2rem !important;
+  }
+  .navbar-brand img {
+    width: 7rem;
+  }
+  .heading {
+    font-size: 3.5rem;
+  }
+  #banner-section {
+    padding: 8rem 0;
+  }
+  #how-it-works-section {
+    padding: 0 0 7rem 0;
+  }
+  #features-section,
+  #pricing-section,
+  #download-extention-section,
+  #sell-section {
+    padding: 7rem 0;
+  }
+  #testimonial-section {
+    padding: 7rem 0 10rem 0;
+  }
+  #contact-section {
+    padding: 0 0 7rem 0;
+  }
+  .footer-logo {
+    width: 6rem;
+  }
+}
+
+/* Font Responsive For 1600px */
+@media screen and (min-width: 1600px) {
+  .navbar-brand img {
+    width: 9rem;
+  }
+  .sticky-nav {
+    padding: 1rem 0 !important;
+  }
+  .heading {
+    font-size: 5.5rem;
+  }
+  .price-box {
+    padding: 1.5rem 3rem;
+  }
+  .price-box .dollar-sign {
+    font-size: 2rem;
+  }
+  .price-box h3 {
+    font-size: 3rem;
+  }
+  .price-box .days {
+    font-size: 1.5rem;
+  }
+  .after-heading-title,
+  .card-heading,
+  .footer-sub-heading {
+    font-size: 2.8rem;
+  }
+  .other-review h3,
+  .para-text,
+  .button,
+  .nav-link,
+  .see-all-review-btn span,
+  .read-more-btn,
+  .contact-info .email,
+  .contact-info .phone,
+  form input,
+  form textarea,
+  .subscribe-form input,
+  .footer-links a,
+  .footer-copyright {
+    font-size: 2.2rem;
+  }
+}
+
+/* Container Responsive */
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1500px !important;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .container {
+    max-width: 1680px !important;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .container {
+    max-width: 1880px !important;
+  }
+}
